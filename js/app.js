@@ -45,11 +45,51 @@ if (age<=0){
 }
 
 if (age>=21 || age ){
-    console.log("vous etes majeur")
+    console.log("vous etes majeur");
 }else if(age<21 && age>=18){
-    console.log("vous etes majeur mais pas au usa")
+    console.log("vous etes majeur mais pas au usa");
 }else {
-    console.log("vous etes mineur")
+    console.log("vous etes mineur");
 }
 // && || !
+
+
+function direBonjour(){
+    console.log("bonjour");
+}
+// direBonjour()
+
+function direBonjourAkelkain(name){
+    console.log("bonjour" + name );
+}
+// direBonjourAkelkain("mon nom")
+
+function hello(name,city){
+    console.log("bonjour" + " " + name + " " + "vous habitez" + " " + city);
+    if (city == undefined ){
+        console.log("vous habitez a lyon");
+    }
+}
+// hello("moi",);
+
+function add(a,b){
+    console.log(a + b);
+}
+//add(10,5);
+
+function div(a,b){
+    console.log(a/b);
+}
+// div(10,2)
+
+function positive(num){
+    if(num >= 0){
+        console.log("vraix");
+    }else{
+        console.log("faux")
+    }
+}
+// positive(-10)
+
+
 

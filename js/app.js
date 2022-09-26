@@ -150,4 +150,22 @@ do {
     console.log(id);
     id++ ;
 } while (id > 100);
+// la boucle s'effecue au moin une fois 
 
+//ligne 91
+let ages = [14,14,14,15,15,15,16,16,16,16,16,17]
+// console.log(ages)
+// console.log(ages[1]);
+// console.log(ages[2]);
+// console.log(ages[3]);
+
+let longueur = ages.length;
+console.log(longueur);
+console.log(ages[longueur-1]);
+
+
+let b = 0
+while(b <= longueur-1){
+    console.log(ages[b]);
+    b++ ; 
+}

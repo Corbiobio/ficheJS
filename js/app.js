@@ -80,16 +80,40 @@ function add(a,b){
 function div(a,b){
     console.log(a/b);
 }
-// div(10,2)
+// div(10,2);
 
 function positive(num){
     if(num >= 0){
         console.log("vraix");
     }else{
-        console.log("faux")
+        console.log("faux");
     }
 }
-// positive(-10)
+// positive(-10);
+
+age = parseInt(age);
+// console.log(age);
+
+let verifier_nombre = isNaN(age); 
+console.log(age);
+console.log(verifier_nombre);
+
+function isvalid(userinput){
+    userinput = parseInt(userinput)
+    if(isNaN(userinput)){
+        return false;
+    }
+    return (userinput >= 12 && userinput <= 90);
+}
+// console.log(isvalid(21));
+
+let resultat = isvalid(age);
+
+let resultatinverse = !resultat
+console.log(resultat);
+console.log(resultatinverse);
+
+
 
 
 

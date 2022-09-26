@@ -113,6 +113,29 @@ let resultatinverse = !resultat
 console.log(resultat);
 console.log(resultatinverse);
 
+// ligne 79
+// let index = 99
+// while (index >= 3) {
+//     console.log(index);
+//     index -= 3 ; 
+// };
+
+// let index = 0 
+// while( index <= 100 ){
+//     console.log(index);
+//     index ++ ;
+// };
+
+let index = 0 
+let a = " "
+while( index <= 100 ){
+    if(index <= 10 || index >=90 && index <=100){
+        a = a + index 
+    }
+
+    index ++ ;
+};
+console.log(a)
 
 
 

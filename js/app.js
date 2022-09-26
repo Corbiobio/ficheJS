@@ -120,6 +120,7 @@ console.log(resultatinverse);
 //     index -= 3 ; 
 // };
 
+//boucle test
 // let index = 0 
 // while( index <= 100 ){
 //     console.log(index);
@@ -127,16 +128,26 @@ console.log(resultatinverse);
 // };
 
 let index = 0 
-let a = " "
+let a = ""
 while( index <= 100 ){
     if(index <= 10 || index >=90 && index <=100){
         a = a + index 
-    }
-
+    } ;
     index ++ ;
 };
-console.log(a)
+console.log(a);
 
+//ligne 82
+let key = 0 ;
+while(key > 100){
+    console.log(key);
+    key++ ;
+}
+//remplacer > par < 
 
-
+let id = 0 ;
+do {
+    console.log(id);
+    id++ ;
+} while (id > 100);
 
